@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b606a9d-a764-4881-b213-91a3b3d8435b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chickenapp/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/pic/IMG_6108.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/pic/WechatIMG12.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/chickenkind.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chickenapp/chicken_weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chickenapp/prediction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/pic/pre1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/pic/pre3.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chickenClient/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/chickenClient/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chickenapp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/chickenapp/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chickenapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/chickenapp/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chickenapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/chickenapp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chickenapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/chickenapp/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chickenapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/chickenapp/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -88,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567854936480</updated>
-      <workItem from="1567854939101" duration="2690000" />
+      <workItem from="1567854939101" duration="3883000" />
     </task>
     <servers />
   </component>
