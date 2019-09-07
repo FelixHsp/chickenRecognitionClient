@@ -5,6 +5,10 @@
     <title>Title</title>
 </head>
 <body>
-
+    <form action="/chicken/info" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <input type="file" name="pic1">
+        <input type="submit">
+    </form>
 </body>
 </html>
