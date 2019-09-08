@@ -64,6 +64,11 @@
         oSelect.onclick = function () {
             oFileInput.click()
         };
+        oFileInput.onchange = function () {
+          if (oFileInput.value != ""){
+              alert('图片上传成功！点击开始识别，进行识别。');
+          }
+        };
         function check() {
             if(oFileInput.value == ""){
                 alert('请先选择照片');
