@@ -3,10 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body,html{
+            height: 100%;
+            background: #85a484;
+        }
+        #container{
+            height: 100%;
+            position: relative;
+            background-repeat:no-repeat;
+            background-position:center;
+        }
+        #cart{
+            width: 50%;
+            background: #eee;
+            color: #999;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            border-radius: 20px;
+            border: 1px solid black;
+        }
+        #cartBottom{
+            border: none;
+            background: #85a484;
+            border-radius: 20px 20px 0 0;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            color: white;
+            font-size: 20px;
+        }
+        #cart img{
+            position: relative;
+            left: 50%;
+            transform: translate(-50%,0);
+            margin-top: 20px;
+            border-radius: 10px;
+            width: 150px;
+            height: 150px;
+        }
+        #cartContent{
+            width: 95%;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 <body>
-<h1>{{ name }}</h1>
-<p>{{ feature }}</p>
-<img src="../media/pic/{{ img }}" alt="">
+    <div id="container">
+        <div id="cart">
+            <div id="cartBottom">识别成功</div>
+            <img src="../media/pic/{{ img }}" alt="">
+            <div id="cartContent">
+                <h1>{{ feature }}</h1>
+                <p>&nbsp &nbsp &nbsp &nbsp{{ show }}</p>
+                <p>&nbsp &nbsp &nbsp &nbsp{{ text }}</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
