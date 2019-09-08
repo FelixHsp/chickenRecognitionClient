@@ -2,19 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b606a9d-a764-4881-b213-91a3b3d8435b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chickenapp/chicken_weights.h5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chickenapp/prediction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/pic/pre1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/pic/pre3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/pic/2_Screen Shot 2019-04-28 at 11.27.54 PM.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/pic/Screen Shot 2019-04-28 at 11.26.40 PM.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/pic/Screen Shot 2019-04-28 at 11.33.26 PM.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/pic/Screen Shot 2019-04-28 at 11.38.16 PM.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/pic/Screen Shot 2019-04-28 at 11.39.08 PM.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/pic/Screen Shot 2019-04-28 at 11.43.53 PM.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/pic/Screen Shot 2019-04-28 at 11.43.59 PM.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/pic/Screen Shot 2019-04-28 at 11.47.09 PM.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/pic/Screen Shot 2019-04-28 at 11.47.23 PM.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/pic/Screen Shot 2019-04-29 at 1.49.26 PM.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/pic/Screen Shot 2019-04-29 at 1.49.32 PM.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/pic/Screen Shot 2019-04-29 at 1.50.51 PM.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/pic/Screen Shot 2019-04-29 at 1.56.37 PM.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/pic/Screen Shot 2019-04-29 at 1.56.42 PM.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/pic/Screen Shot 2019-04-29 at 2.15.12 PM.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/1 .jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/3.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chickenClient/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/chickenClient/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chickenClient/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/chickenClient/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chickenapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/chickenapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/chickenkind.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/chickenkind.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -84,7 +104,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567854936480</updated>
-      <workItem from="1567854939101" duration="3883000" />
+      <workItem from="1567854939101" duration="4119000" />
+      <workItem from="1567902478606" duration="133000" />
+      <workItem from="1567902752629" duration="938000" />
+      <workItem from="1567904142041" duration="4508000" />
     </task>
     <servers />
   </component>
@@ -96,7 +119,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

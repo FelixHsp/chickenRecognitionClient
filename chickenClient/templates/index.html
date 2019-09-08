@@ -4,11 +4,72 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body,html{
+        height: 100%;
+        background: #85a484;
+    }
+    #container{
+        height: 100%;
+        background-image: url("../static/img/3.jpg");
+        position: relative;
+        background-repeat:no-repeat;
+        background-position:center;
+    }
+    form{
+        position: absolute;
+        width: 1000px;
+        left: 50%;
+        top: 70%;
+        transform: translate(-50%,0);
+        text-align: center;
+    }
+    #fileinp{
+        display: none;
+    }
+    #select,#btn{
+        background: black;
+        color: white;
+        width: 160px;
+        display: inline-block;
+        height:40px ;
+        font-size: 16px;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        border-radius: 10px;
+    }
+    #select{
+        margin-right: 60px;
+    }
+</style>
 <body>
-    <form action="/chicken/info" method="post" enctype="multipart/form-data">
-        {% csrf_token %}
-        <input type="file" name="pic1">
-        <input type="submit">
-    </form>
+    <div id="container">
+        <form action="/chicken/info" method="post" enctype="multipart/form-data" onsubmit="return check()">
+            {% csrf_token %}
+            <input type="button" id="select" value="选择图片"><span id="text"></span>
+            <input type="file" id="fileinp"  name="pic1">
+{#            <input type="file" name="pic1"  placeholder="点击选择照片">#}
+            <input type="submit" id="btn"  value="开始识别">
+        </form>
+    </div>
+    <script>
+
+        var oFileInput = document.getElementById('fileinp');
+        var oSelect = document.getElementById('select');
+        oSelect.onclick = function () {
+            oFileInput.click()
+        };
+        function check() {
+            if(oFileInput.value == ""){
+                alert('请先选择照片');
+                return false
+            }
+        }
+    </script>
 </body>
 </html>

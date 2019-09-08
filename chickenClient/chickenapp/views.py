@@ -16,7 +16,7 @@ def info(request):
 
         kind = prediction.testchicken(f1.name)
         chicken1 = models.chikenkind.objects.get(id=kind+1)
-        return render(request, 'chickenkind.html', {'name': chicken1.name, 'feature': chicken1.feature})
+        return render(request, 'chickenkind.html', {'name': chicken1.name, 'feature': chicken1.feature,'img':f1.name})
     else:
         return HttpResponse("error")
 
