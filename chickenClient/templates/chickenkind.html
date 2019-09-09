@@ -49,7 +49,7 @@
             height: 150px;
         }
         #cartContent{
-            width: 95%;
+            width: 90%;
             margin: 0 auto;
             margin-bottom: 20px;
         }
@@ -59,6 +59,10 @@
             left: 50%;
             transform: translate(-50%,0);
             text-align: center;
+            margin-top: 20px;
+        }
+        #cartContent p{
+            margin-top: 20px;
         }
     </style>
 </head>
@@ -69,8 +73,8 @@
             <img src="../media/pic/{{ img }}" alt="">
             <div id="cartContent">
                 <h1>{{ feature }}</h1>
-                <p>&nbsp &nbsp &nbsp &nbsp{{ show }}</p>
-                <p>&nbsp &nbsp &nbsp &nbsp{{ text }}</p>
+                <p>&nbsp &nbsp &nbsp{{ show }}</p>
+                <p>&nbsp &nbsp &nbsp{{ text }}</p>
             </div>
         </div>
     </div>

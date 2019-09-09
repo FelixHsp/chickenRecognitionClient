@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b606a9d-a764-4881-b213-91a3b3d8435b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/media/pic/Screen Shot 2019-04-29 at 1.56.47 PM.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/pic/Screen Shot 2019-04-29 at 2.17.10 PM.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chickenClient/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/chickenClient/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/chickenkind.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/chickenkind.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +35,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -95,6 +93,7 @@
       <workItem from="1567928939822" duration="78000" />
       <workItem from="1567929293569" duration="2341000" />
       <workItem from="1567939851753" duration="745000" />
+      <workItem from="1567991502313" duration="468000" />
     </task>
     <servers />
   </component>
