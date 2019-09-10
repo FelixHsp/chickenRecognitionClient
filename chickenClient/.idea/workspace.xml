@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b606a9d-a764-4881-b213-91a3b3d8435b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/media/pic/Screen Shot 2019-04-28 at 11.29.42 PM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/pic/Screen Shot 2019-04-28 at 11.38.16 PM.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chickenClient/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/chickenClient/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/chickenkind.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/chickenkind.html" afterDir="false" />
@@ -94,6 +96,8 @@
       <workItem from="1567929293569" duration="2341000" />
       <workItem from="1567939851753" duration="745000" />
       <workItem from="1567991502313" duration="468000" />
+      <workItem from="1568015074646" duration="63000" />
+      <workItem from="1568083058464" duration="814000" />
     </task>
     <servers />
   </component>
